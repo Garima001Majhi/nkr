@@ -1,0 +1,36 @@
+/* Main container for the job list */
+.job-list {
+    display: flex; /* Enables flexbox layout */
+    flex-wrap: wrap; /* Allows items to wrap to the next line if needed */
+    justify-content: center; /* Centers items horizontally */
+    gap: 20px; /* Adds space between each job item */
+    padding: 20px;
+  }
+  
+  /* Individual job item styling */
+  .job-item {
+    display: flex;
+    flex-direction: column; /* Ensures that job details are stacked vertically */
+    align-items: center; /* Centers content inside each job item */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 250px; /* Set a fixed width for each job item */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centers text inside the job item */
+    background-color: #f9f9f9;
+  }
+  
+  /* Styling for job titles, companies, and locations */
+  .job-item h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .job-item p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
